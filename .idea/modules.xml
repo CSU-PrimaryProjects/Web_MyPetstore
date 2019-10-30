@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Web_MyPetstore.iml" filepath="$PROJECT_DIR$/Web_MyPetstore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Web_MyPetstoreijiui.iml" filepath="$PROJECT_DIR$/Web_MyPetstoreijiui.iml" />
+    </modules>
+  </component>
+</project>
