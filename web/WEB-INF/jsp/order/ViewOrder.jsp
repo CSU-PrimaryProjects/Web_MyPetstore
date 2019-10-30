@@ -5,8 +5,8 @@
 </div>
 
 <div id="Catalog">
-
-<table>
+	<ul class="menu">
+<table  class="table">
 	<tr>
 		<th align="center" colspan="2">Order #${sessionScope.order.orderId}
 		<fmt:formatDate value="${sessionScope.order.orderDate}"
@@ -107,7 +107,8 @@
 	</tr>
 	<tr>
 		<td colspan="2">
-		<table>
+			<ul class="menu">
+		<table  class="table">
 			<tr>
 				<th>Item ID</th>
 				<th>Description</th>
@@ -144,11 +145,12 @@
 					</th>
 			</tr>
 		</table>
+			</ul>
 		</td>
 	</tr>
 
 </table>
-
+	</ul>
 </div>
 
 <%@ include file="../common/IncludeBottom.jsp"%>

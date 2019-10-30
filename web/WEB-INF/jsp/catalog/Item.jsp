@@ -4,8 +4,8 @@
 	<a href="viewproduct?productId=${sessionScope.item.product.productId}">Return to ${sessionScope.item.product.productId}</a>
 </div>
 <div id="Catalog" align="center">
-
-<table align="center">
+	<ul class="menu">
+<table align="center"  class="table">
 	<tr>
 		<td>${sessionScope.item.product.description}</td>
 	</tr>
@@ -39,7 +39,7 @@
 		</td>
 	</tr>
 </table>
-
+	</ul>
 </div>
 
 <%@ include file="../common/IncludeBottom.jsp"%>

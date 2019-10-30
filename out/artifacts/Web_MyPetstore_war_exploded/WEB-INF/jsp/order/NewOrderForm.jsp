@@ -2,7 +2,8 @@
 
 <div id="Catalog">
 	<form action="confirm" method="post">
-		<table>
+		<ul class="menu">
+		<table  class="table">
 			<tr>
 				<th colspan=2>Payment Details</th>
 			</tr>
@@ -19,14 +20,14 @@
 			<tr>
 				<td>Card Number:</td>
 				<td>
-					<input type="text" name="order.creditCard" value="${sessionScope.order.creditCard}">* Use a fake
+					<input type="text" name="order.creditCard" class="form-input" value="${sessionScope.order.creditCard}">* Use a fake
 					number!
 				</td>
 			</tr>
 			<tr>
 				<td>Expiry Date (MM/YYYY):</td>
 				<td>
-					<input type="text" name="order.expiryDate" value="${sessionScope.order.expiryDate}">
+					<input type="text" name="order.expiryDate" class="form-input" value="${sessionScope.order.expiryDate}">
 				</td>
 			</tr>
 			<tr>
@@ -36,31 +37,31 @@
 			<tr>
 				<td>First name:</td>
 				<td>
-					<input type="text" name="order.billToFirstName" value="${sessionScope.order.billToFirstName}">
+					<input type="text" name="order.billToFirstName" class="form-input" value="${sessionScope.order.billToFirstName}">
 				</td>
 			</tr>
 			<tr>
 				<td>Last name:</td>
 				<td>
-					<input type="text" name="order.billToLastName" value="${sessionScope.order.billToLastName}">
+					<input type="text" name="order.billToLastName" class="form-input" value="${sessionScope.order.billToLastName}">
 				</td>
 			</tr>
 			<tr>
 				<td>Address 1:</td>
 				<td>
-					<input type="text" size="40" name="order.billAddress1" value="${sessionScope.order.billAddress1}">
+					<input type="text" size="40" name="order.billAddress1" class="form-input" value="${sessionScope.order.billAddress1}">
 				</td>
 			</tr>
 			<tr>
 				<td>Address 2:</td>
 				<td>
-					<input type="text" size="40" name="order.billAddress2" value="${sessionScope.order.billAddress2}">
+					<input type="text" size="40" name="order.billAddress2" class="form-input" value="${sessionScope.order.billAddress2}">
 				</td>
 			</tr>
 			<tr>
 				<td>City:</td>
 				<td>
-					<input type="text" name="order.billCity" value="${sessionScope.order.billCity}"/>
+					<input type="text" name="order.billCity" class="form-input" value="${sessionScope.order.billCity}"/>
 				</td>
 			</tr>
 			<tr>
@@ -72,7 +73,7 @@
 			<tr>
 				<td>Zip:</td>
 				<td>
-					<input type="text" size="10" name="order.billZip" value="${sessionScope.order.billZip}">
+					<input type="text" size="10" name="order.billZip" class="form-input" value="${sessionScope.order.billZip}">
 				</td>
 			</tr>
 			<tr>
@@ -84,12 +85,13 @@
 
 			<tr>
 				<td colspan=2>
-					<input type="checkbox" name="shippingAddressRequired" />Ship to different address...
+					<input type="checkbox" name="shippingAddressRequired"  class="form-input"/>Ship to different address...
 				</td>
 			</tr>
 
 		</table>
-		<input class="button" type="submit" value="Continue">
+		</ul>
+		<input type="submit" value="Continue" class="form-input"/>
 	</form>
 </div>
 

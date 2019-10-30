@@ -6,7 +6,74 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2be1b5e-4220-4e27-8852-c226c7269a5c" name="Default Changelist" comment="" />
+    <list default="true" id="f2be1b5e-4220-4e27-8852-c226c7269a5c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/account/IncludeAccountFields.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/account/IncludeAccountFields.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/account/NewAccountForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/account/NewAccountForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/account/SignonForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/account/SignonForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/cart/Cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/cart/Cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/catalog/Category.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/catalog/Category.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/catalog/Item.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/catalog/Item.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/catalog/Product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/catalog/Product.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/catalog/SearchProducts.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/catalog/SearchProducts.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/common/Error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/common/Error.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/common/IncludeTop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/common/IncludeTop.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/order/ConfirmOrder.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/order/ConfirmOrder.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/order/NewOrderForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/order/NewOrderForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/order/ShippingForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/order/ShippingForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/order/ViewOrder.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/order/ViewOrder.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/css/jpetstore.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/css/jpetstore.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/bird1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/bird1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/bird2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/bird2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/cat1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/cat1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/cat2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/cat2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/dog1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/dog1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/dog2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/dog2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/dog3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/dog3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/dog4.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/dog4.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/dog5.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/dog5.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/dog6.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/dog6.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/fish1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/fish1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/fish2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/fish2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/fish3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/fish3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/fish4.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/fish4.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/lizard1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/lizard1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/logo-topbar.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/logo-topbar.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/snake1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/snake1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/account/IncludeAccountFields.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/account/IncludeAccountFields.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/account/NewAccountForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/account/NewAccountForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/account/SignonForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/account/SignonForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/cart/Cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/cart/Cart.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/catalog/Category.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/catalog/Category.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/catalog/Item.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/catalog/Item.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/catalog/Product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/catalog/Product.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/catalog/SearchProducts.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/catalog/SearchProducts.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/common/Error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/common/Error.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeTop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeTop.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/order/ConfirmOrder.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/order/ConfirmOrder.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/order/NewOrderForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/order/NewOrderForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/order/ShippingForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/order/ShippingForm.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/order/ViewOrder.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/order/ViewOrder.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/jpetstore.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/jpetstore.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/bird1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/bird1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/bird2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/bird2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/cat1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/cat1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/cat2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/cat2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/dog1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/dog1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/dog2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/dog2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/dog3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/dog3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/dog4.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/dog4.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/dog5.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/dog5.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/dog6.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/dog6.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/fish1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/fish1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/fish2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/fish2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/fish3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/fish3.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/fish4.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/fish4.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/lizard1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/lizard1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/logo-topbar.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/logo-topbar.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/snake1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/snake1.gif" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +105,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/mypetstore" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="LogFilters">
@@ -290,7 +357,7 @@
       <workItem from="1572189027517" duration="6583000" />
       <workItem from="1572230223795" duration="20489000" />
       <workItem from="1572308130925" duration="1431000" />
-      <workItem from="1572449645572" duration="254000" />
+      <workItem from="1572449645572" duration="12000000" />
     </task>
     <servers />
   </component>

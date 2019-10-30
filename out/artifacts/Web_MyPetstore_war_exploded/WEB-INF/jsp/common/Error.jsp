@@ -2,4 +2,4 @@
 
 ${sessionScope.message}
 
-<%@ include file="../common/IncludeButtom.jsp"%>
+<%@ include file="../common/IncludeBottom.jsp"%>

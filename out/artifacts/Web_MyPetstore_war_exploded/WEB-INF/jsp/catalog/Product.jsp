@@ -7,8 +7,8 @@
 <div id="Catalog">
 
 <h2>${sessionScope.product.name}</h2>
-
-<table>
+	<ul class="menu">
+<table  class="table">
 	<tr>
 		<th>Item ID</th>
 		<th>Product ID</th>
@@ -42,7 +42,7 @@
 		</td>
 	</tr>
 </table>
-
+	</ul>
 </div>
 
 <%@ include file="../common/IncludeBottom.jsp"%>

@@ -78,13 +78,13 @@
 			<td>Enable MyList</td>
 			<td>
 	<%--			<stripes:checkbox name="account.listOption" />--%>
-				<input type="checkbox" name="account.listOption" value="account.listOption"/>${account.listOption}
+				<input type="checkbox" class="form-input" name="account.listOption" value="account.listOption"/>${account.listOption}
 			</td>
 		</tr>
 		<tr>
 			<td>Enable MyBanner</td>
 			<td>
-				<input type="checkbox" name="account.bannerOption" value="account.bannerOption"/>${account.bannerOption}
+				<input type="checkbox" class="form-input" name="account.bannerOption" value="account.bannerOption"/>${account.bannerOption}
 				<stripes:checkbox name="account.bannerOption" />
 			</td>
 		</tr>

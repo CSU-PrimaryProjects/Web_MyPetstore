@@ -7,8 +7,8 @@
 <div id="Catalog">
 
     <h2>${sessionScope.category.name}</h2>
-
-    <table>
+    <ul class="menu">
+    <table  class="table">
         <tr>
             <th>Product ID</th>
             <th>Name</th>
@@ -29,7 +29,7 @@
             </tr>
         </c:forEach>
     </table>
-
+    </ul>
 </div>
 
 <%@ include file="../common/IncludeBottom.jsp"%>

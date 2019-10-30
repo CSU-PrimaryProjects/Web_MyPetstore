@@ -11,7 +11,8 @@
 <h2>Shopping Cart</h2>
 
 <form action="updateCart" method="post">
-	<table>
+	<ul class="menu">
+	<table  class="table">
 		<tr>
 			<th><b>Item ID</b></th>
 			<th><b>Product ID</b></th>
@@ -41,7 +42,7 @@
 				${cartItem.item.attribute5} ${cartItem.item.product.name}</td>
 				<td>${cartItem.inStock}</td>
 				<td>
-					<input type="text" id="quantity" onblur="updateCart();" name="${cartItem.item.itemId}" value="${cartItem.quantity}">
+					<input type="text" class="form-input" id="quantity" onblur="updateCart();" name="${cartItem.item.itemId}" value="${cartItem.quantity}">
 					<div id="cartMsg"></div>
 					<script type="text/javascript" src="javascript/updateCart.js"></script>
 					<script type="text/javascript" src="${pageContext.request.contextPath }/javascript/updateCart.js"></script>
@@ -90,6 +91,7 @@
 			<td>&nbsp;</td>
 		</tr>
 	</table>
+	</ul>
 </form>
 	<c:if test="${sessionScope.cart.numberOfItems > 0}">
 		<a href="newOrderForm" class="Button">Proceed to Checkout</a>

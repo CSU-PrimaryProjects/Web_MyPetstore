@@ -5,8 +5,8 @@
 </div>
 
 <div id="Catalog">
-
-<table>
+	<ul class="menu">
+<table  class="table">
 	<tr>
 		<th>&nbsp;</th>
 		<th>Product ID</th>
@@ -30,7 +30,7 @@
 	</tr>
 
 </table>
-
+	</ul>
 </div>
 
 <%@ include file="../common/IncludeBottom.jsp"%>

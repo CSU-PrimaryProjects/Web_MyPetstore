@@ -6,8 +6,8 @@
 
 <div id="Catalog">Please confirm the information below and then
 press continue...
-
-	<table>
+	<ul class="menu">
+	<table  class="table">
 		<tr>
 			<th align="center" colspan="2"><font size="4"><b>Order</b></font>
 			<br />
@@ -89,7 +89,7 @@ press continue...
 		</tr>
 
 	</table>
-
+	</ul>
 	<a href="viewOrder" class="Button">Confirm</a>
 </div>
 

@@ -11,18 +11,18 @@
 		<table>
 			<tr>
 				<td>User ID:</td>
-				<td><input type="text" name="username" id="username"  onblur="usernameIsExist();"/>
+				<td><input type="text" class="form-input" name="username" id="username"  onblur="usernameIsExist();"/>
 					<div id="usernameMsg"></div>
 					<script type="text/javascript" src="${pageContext.request.contextPath }/javascript/register.js"></script>
 				</td>
 			</tr>
 			<tr>
 				<td>New password:</td>
-				<td><input type="password" name="password"/></td>
+				<td><input  class="form-input" type="password" name="password"/></td>
 			</tr>
 			<tr>
 				<td>Repeat password:</td>
-				<td><input type="password" name="repassword"/></td>
+				<td><input class="form-input" type="password" name="repassword"/></td>
 			</tr>
 		</table>
 
@@ -34,43 +34,43 @@
 		<table>
 			<tr>
 				<td>First name:</td>
-				<td style="width: 70%;"><input type="text" name="firstName"/></td>
+				<td style="width: 70%;"><input  class="form-input" type="text" name="firstName"/></td>
 			</tr>
 			<tr>
 				<td>Last name:</td>
-				<td><input type="text" name="lastName"/></td>
+				<td><input type="text" class="form-input" name="lastName"/></td>
 			</tr>
 			<tr>
 				<td>Email:</td>
-				<td><input type="text" name="email"/></td>
+				<td><input type="text" class="form-input" name="email"/></td>
 			</tr>
 			<tr>
 				<td>Phone:</td>
-				<td><input type="text" name="phone"/></td>
+				<td><input type="text" class="form-input" name="phone"/></td>
 			</tr>
 			<tr>
 				<td>Address 1:</td>
-				<td><input type="text" name="address1" style="size: 40px"/></td>
+				<td><input type="text" class="form-input" name="address1" style="size: 40px"/></td>
 			</tr>
 			<tr>
 				<td>Address 2:</td>
-				<td><input type="text" name="address2" style="size: 40px"/></td>
+				<td><input type="text" class="form-input" name="address2" style="size: 40px"/></td>
 			</tr>
 			<tr>
 				<td>City:</td>
-				<td><input type="text" name="city"/></td>
+				<td><input type="text" class="form-input" name="city"/></td>
 			</tr>
 			<tr>
 				<td>State:</td>
-				<td><input type="text" name="state"/></td>
+				<td><input type="text" class="form-input" name="state"/></td>
 			</tr>
 			<tr>
 				<td>Zip:</td>
-				<td style="size: 10px"><input type="text" name="zip"/></td>
+				<td style="size: 10px"><input class="form-input" type="text" name="zip"/></td>
 			</tr>
 			<tr>
 				<td>Country:</td>
-				<td style="size: 10px"><input type="text" name="country"/></td>
+				<td style="size: 10px"><input class="form-input" type="text" name="country"/></td>
 			</tr>
 		</table>
 
@@ -110,17 +110,17 @@
 				<td>Enable MyList</td>
 				<td>
 					<%--			<stripes:checkbox name="account.listOption" />--%>
-					<input type="checkbox" name="account.listOption" value="account.listOption"/>
+					<input  class="form-input" type="checkbox" name="account.listOption" value="account.listOption"/>
 				</td>
 			</tr>
 			<tr>
 				<td>Enable MyBanner</td>
 				<td>
-					<input type="checkbox" name="account.bannerOption" value="account.bannerOption"/>
+					<input class="form-input" type="checkbox" name="account.bannerOption" value="account.bannerOption"/>
 				</td>
 			</tr>
 		</table>
-		<input type="submit" name="newAccount" value="Save Account Information"/>
+		<input type="submit" name="newAccount" class="form-input" value="Save Account Information"/>
 	</form>
 	</div>
 	<script src="../../../javascript/userIsExist.js"></script>

@@ -12,9 +12,9 @@
 
 <head>
     <link rel="StyleSheet" href="css/jpetstore.css" type="text/css" media="screen" />
-<%--    <link rel="StyleSheet" href="css/spectre.css" type="text/css" media="screen" />--%>
-<%--    <link rel="StyleSheet" href="css/spectre-exp.css" type="text/css" media="screen" />--%>
-<%--    <link rel="StyleSheet" href="css/spectre-icons.css" type="text/css" media="screen" />--%>
+    <link rel="StyleSheet" href="css/spectre.css" type="text/css" media="screen" />
+    <link rel="StyleSheet" href="css/spectre-exp.css" type="text/css" media="screen" />
+    <link rel="StyleSheet" href="css/spectre-icons.css" type="text/css" media="screen" />
     <link rel="StyleSheet" href="css/searchProduct.css" type="text/css" media="screen" />
     <link rel="StyleSheet" href="css/mouseEventInform.css" type="text/css" media="screen" />
     <meta name="generator" content="HTML Tidy for Linux/x86 (vers 1st November 2002), see www.w3.org" />
@@ -30,7 +30,7 @@
 
 <body>
 
-<div id="Header">
+<div  id="Header">
     <div id="Logo">
         <div id="LogoContent">
             <a href="main"><img src="images/logo-topbar.gif" /></a>
@@ -72,8 +72,8 @@
         <div id="SearchContent">
             <!--搜索栏目-->
             <form action="searchProduct" method="post">
-                <input type="text" id="keyword" name="keyword" size="14"/>
-                <input type="submit" name="searchProducts" value="Search" />
+                <span id="l"><input type="text" id="keyword" name="keyword" size="14" class="form-input"/></span>
+                <span id="r"><input type="submit"  name="searchProducts" value="Search"  class="form-input"/></span>
                 <div id="auto" class="auto hidden"></div>
                 <script src="javascript/searchProducts.js"></script>
             </form>
