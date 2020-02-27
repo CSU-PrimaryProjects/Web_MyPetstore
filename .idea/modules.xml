@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Web_MyPetstore.iml" filepath="$PROJECT_DIR$/Web_MyPetstore.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Web_MyPetstoreijiui.iml" filepath="$PROJECT_DIR$/Web_MyPetstoreijiui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mypetstore.iml" filepath="$PROJECT_DIR$/mypetstore.iml" />
     </modules>
   </component>
 </project>

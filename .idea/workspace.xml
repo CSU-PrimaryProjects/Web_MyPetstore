@@ -2,111 +2,16 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Web_MyPetstore:war exploded" />
+      <artifact name="mypetstore:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2be1b5e-4220-4e27-8852-c226c7269a5c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/account/IncludeAccountFields.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/account/IncludeAccountFields.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/account/NewAccountForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/account/NewAccountForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/account/SignonForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/account/SignonForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/cart/Cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/cart/Cart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/catalog/Category.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/catalog/Category.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/catalog/Item.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/catalog/Item.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/catalog/Product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/catalog/Product.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/catalog/SearchProducts.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/catalog/SearchProducts.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/common/Error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/common/Error.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/common/IncludeTop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/common/IncludeTop.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/order/ConfirmOrder.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/order/ConfirmOrder.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/order/NewOrderForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/order/NewOrderForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/order/ShippingForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/order/ShippingForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/order/ViewOrder.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/WEB-INF/jsp/order/ViewOrder.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/css/jpetstore.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/css/jpetstore.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/bird1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/bird1.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/bird2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/bird2.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/cat1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/cat1.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/cat2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/cat2.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/dog1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/dog1.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/dog2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/dog2.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/dog3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/dog3.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/dog4.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/dog4.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/dog5.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/dog5.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/dog6.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/dog6.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/fish1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/fish1.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/fish2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/fish2.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/fish3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/fish3.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/fish4.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/fish4.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/lizard1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/lizard1.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/logo-topbar.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/logo-topbar.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/snake1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Web_MyPetstore_war_exploded/images/snake1.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/account/IncludeAccountFields.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/account/IncludeAccountFields.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/account/NewAccountForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/account/NewAccountForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/account/SignonForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/account/SignonForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/cart/Cart.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/cart/Cart.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/catalog/Category.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/catalog/Category.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/catalog/Item.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/catalog/Item.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/catalog/Product.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/catalog/Product.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/catalog/SearchProducts.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/catalog/SearchProducts.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/common/Error.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/common/Error.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeTop.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/common/IncludeTop.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/order/ConfirmOrder.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/order/ConfirmOrder.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/order/NewOrderForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/order/NewOrderForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/order/ShippingForm.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/order/ShippingForm.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/jsp/order/ViewOrder.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/order/ViewOrder.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/css/jpetstore.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/jpetstore.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/bird1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/bird1.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/bird2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/bird2.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/cat1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/cat1.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/cat2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/cat2.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/dog1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/dog1.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/dog2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/dog2.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/dog3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/dog3.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/dog4.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/dog4.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/dog5.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/dog5.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/dog6.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/dog6.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/fish1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/fish1.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/fish2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/fish2.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/fish3.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/fish3.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/fish4.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/fish4.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/lizard1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/lizard1.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/logo-topbar.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/logo-topbar.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/images/snake1.gif" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/snake1.gif" afterDir="false" />
-    </list>
+    <list default="true" id="fddb1b67-8c56-44f5-93f1-39de7646ff35" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Jsp File" />
-        <option value="Interface" />
-        <option value="Class" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -115,33 +20,15 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectId" id="1Rdp9gH2w58rhbmPf0D7G6E0nwK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1YIDWSVSKgHFAGAaWYsQDyFWOB3" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/360Downloads/Git/cmd/git.exe" />
-    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\WebProject\Web_MyPetstore\src\org\csu\mypetstore\web\servlets" />
-      <recent name="G:\WebProject\Web_MyPetstore\web\javascript" />
-      <recent name="G:\WebProject\Web_MyPetstore\src\org\csu\mypetstore\persistence\impl" />
-      <recent name="G:\WebProject\Web_MyPetstore\web\WEB-INF" />
-      <recent name="G:\WebProject\Web_MyPetstore\web\WEB-INF\jsp\order" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\WebProject\Web_MyPetstore\web" />
-      <recent name="G:\WebProject\Web_MyPetstore\web\WEB-INF\jsp\account" />
-      <recent name="G:\WebProject\Web_MyPetstore\web\WEB-INF\jsp\cart" />
-      <recent name="G:\WebProject\Web_MyPetstore\web\WEB-INF\jsp\catalog" />
-      <recent name="G:\WebProject\Web_MyPetstore\web\WEB-INF\jsp\common" />
-    </key>
+    <property name="project.structure.side.proportion" value="0.36926606" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -155,31 +42,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.451">
-    <configuration name="DBUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.csu.mypetstore.persistence.DBUtil" />
-      <module name="Web_MyPetstore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.csu.mypetstore.persistence.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tomcat 8.5.451" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.451" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="Tomcat 8.5.45" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.45" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="Web_MyPetstore:war exploded">
+        <artifact name="mypetstore:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/mypetstore/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_451_mypetstore" />
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_45_mypetstore" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -187,7 +61,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="54941" />
+        <option name="DEBUG_PORT" value="63511" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -237,20 +111,13 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="Web_MyPetstore:war exploded" />
+          <artifact name="mypetstore:war exploded" />
         </option>
       </method>
     </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.451" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/mypetstore/" />
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.45" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment>
-        <artifact name="Web_MyPetstore:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
+      <deployment />
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="_mypetstore" />
       </server-settings>
@@ -260,7 +127,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="54941" />
+        <option name="DEBUG_PORT" value="63511" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -309,72 +176,57 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="Web_MyPetstore:war exploded" />
-          <artifact name="Web_MyPetstoreijiui:war exploded" />
-        </option>
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.DBUtil" />
-      </list>
-    </recent_temporary>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="targets">
+            <list>
+              <WatchedTargetModelImpl>
+                <option name="name" value="CONTEXT_XML" />
+                <name>CONTEXT_XML</name>
+              </WatchedTargetModelImpl>
+              <StagingTargetModelImpl>
+                <option name="name" value="STAGING" />
+                <name>STAGING</name>
+              </StagingTargetModelImpl>
+            </list>
+          </option>
+          <option name="transportHostId" />
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="TOMCAT_LOCALHOST_LOG_ID" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63504" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f2be1b5e-4220-4e27-8852-c226c7269a5c" name="Default Changelist" comment="" />
-      <created>1570006677807</created>
+      <changelist id="fddb1b67-8c56-44f5-93f1-39de7646ff35" name="Default Changelist" comment="" />
+      <created>1582621245932</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1570006677807</updated>
-      <workItem from="1570006679788" duration="5432000" />
-      <workItem from="1570069613104" duration="12075000" />
-      <workItem from="1570212866292" duration="2717000" />
-      <workItem from="1570249345963" duration="14276000" />
-      <workItem from="1570417517615" duration="2280000" />
-      <workItem from="1570447409248" duration="9420000" />
-      <workItem from="1570698789052" duration="1810000" />
-      <workItem from="1570705267525" duration="6139000" />
-      <workItem from="1570711662362" duration="482000" />
-      <workItem from="1570713240120" duration="3637000" />
-      <workItem from="1570717956345" duration="7301000" />
-      <workItem from="1570792135180" duration="2142000" />
-      <workItem from="1570867110565" duration="23875000" />
-      <workItem from="1570935765468" duration="16741000" />
-      <workItem from="1571040262142" duration="20533000" />
-      <workItem from="1571137217046" duration="1496000" />
-      <workItem from="1571215076777" duration="13967000" />
-      <workItem from="1571236229201" duration="6511000" />
-      <workItem from="1571283735965" duration="3594000" />
-      <workItem from="1571841247742" duration="1263000" />
-      <workItem from="1571914725230" duration="5302000" />
-      <workItem from="1572018348273" duration="25149000" />
-      <workItem from="1572105199027" duration="15127000" />
-      <workItem from="1572189027517" duration="6583000" />
-      <workItem from="1572230223795" duration="20489000" />
-      <workItem from="1572308130925" duration="1431000" />
-      <workItem from="1572449645572" duration="12000000" />
+      <updated>1582621245932</updated>
+      <workItem from="1582621247717" duration="557000" />
+      <workItem from="1582621842723" duration="3397000" />
+      <workItem from="1582775090130" duration="29080000" />
+      <workItem from="1582826417126" duration="60000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>

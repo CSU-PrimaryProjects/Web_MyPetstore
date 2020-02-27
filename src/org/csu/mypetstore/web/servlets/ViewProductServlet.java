@@ -42,6 +42,8 @@ public class ViewProductServlet extends HttpServlet {
             String logInfo = logService.logInfo(" ") + strBackUrl + " 查看产品 " + product;
             logService.insertLogInfo(account.getUsername(), logInfo);
         }
+
+
         request.getRequestDispatcher(VIEW_PRODUCT).forward(request,response);
     }
 
