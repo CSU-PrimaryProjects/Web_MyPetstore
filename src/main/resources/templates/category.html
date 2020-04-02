@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<div th:replace="common/header"></div>
+<div class="wrapper cf">
+    <div role="main" id="main" class="cf">
+        <div id="BackLink">
+            <a href="main">Return to Main Menu</a>
+        </div>
+        <div id="Catalog">
+            <aside id="sidebar">
+                <ul>
+                    <li class="block">
+                        <div class="sidebar-top"></div>
+                        <div class="sidebar-content">
+                            <h2 class="heading" th:text="${category.getName()}">xxx</h2>
+                            <ul th:each="product:${products}">
+                                <li class="cat-item"><span th:text="${product.name}"></span>:<a th:href="@{'/viewproduct?productId='+${product.productId}}" th:text="${product.productId}"></a></li>
+                            </ul>
+                        </div>
+                        <div class="sidebar-bottom"></div>
+                    </li>
+                </ul>
+            </aside>
+        </div>
+    </div>
+</div>
+<div th:replace="common/footer"></div>
+
+</body>
+</html>

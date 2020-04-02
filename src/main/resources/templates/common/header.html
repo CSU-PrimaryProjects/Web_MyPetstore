@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+    <link rel="stylesheet" media="screen" href="css/superfish.css" th:href="@{css/superfish.css}" />
+    <link rel="stylesheet" href="css/nivo-slider.css" media="all" th:href="@{css/nivo-slider.css}" />
+    <link rel="stylesheet" href="css/tweet.css" media="all" th:href="@{css/tweet.css}" />
+    <link rel="stylesheet" href="css/style.css" th:href="@{css/style.css}"/>
+    <link rel="stylesheet" media="all" href="css/lessframework.css"  th:href="@{css/lessframework.css}" />
+    <link rel="stylesheet" type="text/css" href="css/modifier.css" th:href="@{css/modifier.css}" />
+
+    <title></title>
+</head>
+<body>
+    <header th:fragment="header">
+
+
+        <!-- WRAPPER -->
+        <div class="wrapper cf">
+            <header>
+
+                <!-- social-bar -->
+                <div id="social-bar-holder">
+                    <ul id="social-bar" class="cf">
+                        <li class="dribbble"><a href="addItemToCart?workingitemId=EST-8&removeCartItemId=EST-8" title="Dribbble"></a></li>
+                        <li th:unless="${isOnline}" class="googleplus"><a href="login" title="googleplus"></a></li>
+                        <li th:if="${isOnline}" class="github"><a href="myAccount?username=${sessionScope.account.getUsername()}" title="github"></a></li>
+                        <li th:if="${isOnline}"  class="linkedin"><a href="login?isLogin=false" title="linkedin"></a></li>
+                        <li class="facebook"><a href="" title="Facebook"></a></li>
+                        <li class="twitter"><a href="" title="twitter"></a></li>
+                    </ul>
+
+                    <div id="section_search">
+                        <section class="navbar-section">
+                            <div class="input-group input-inline">
+                                <input class="form-input" type="text">
+                                <button class="btn btn-primary input-group-btn">Search</button>
+                                <ul id="nav" class="sf-menu">
+                                    <li>
+                                        <ul>
+                                            <li><a href="page.html">Columns</a></li>
+                                            <li><a href="page-typography.html">Typography</a></li>
+                                            <li><a href="page-elements.html">Elements</a></li>
+                                            <li><a href="page-sidebar.html">Sidebar Page</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="cf"></div>
+                <!-- ENDS social-bar -->
+
+                <div id="logo" class="cf">
+                    <a href="main"><img src=" img/logo.png" alt="" /></a>
+                </div>
+
+                <!-- nav -->
+                <nav class="cf" id="naver">
+                    <ul id="nav" class="sf-menu">
+                        <li><a href="main"><span>home</span></a></li>
+                        <li><a href="viewcategory?categoryId=FISH"><span>fish</span></a></li>
+                        <li><a href="viewcategory?categoryId=DOGS"><span>dogs</span></a></li>
+                        <li><a href="viewcategory?categoryId=REPTILES"><span>reptiles</span></a></li>
+                        <li><a href="viewcategory?categoryId=CATS"><span>cats</span></a></li>
+                        <li><a href="viewcategory?categoryId=BIRDS"><span>birds</span></a></li>
+                    </ul>
+                    <div id="combo-holder"></div>
+                </nav>
+                <!-- ends nav -->
+
+            </header>
+        </div>
+
+    </header>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<div th:replace="common/header"></div>
+<div class="wrapper cf">
+
+<div role="main" id="main" class="cf">
+
+    <div id="Product">
+
+        <div id="BackLink">
+            <a href="main">Return to Main Menu</a>
+        </div>
+
+
+
+        <div class="page-content">
+
+            <h2 class="heading" th:text="${items[0].getProduct().getName()}"></h2>
+
+            <br/><br/>
+
+            <!-- entry-content -->
+            <div class="entry-content cf" th:each="item:${items}">
+
+                <!-- Toggle -->
+                    <div class="toggle-trigger"><i></i>
+                        <table>
+                            <th><a th:href="@{'/viewItem?itemId='+${item.itemId}}" th:text="${item.itemId}"></a>&nbsp&nbsp&nbsp</th>
+                            <th><span th:text="${item.attribute1}"></span>&nbsp&nbsp&nbsp</th>
+                            <th><span th:text="${item.listPrice}"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</th>
+                            <th><a class="button" th:href="@{'/addItemToCart?workingitemId='+${item.itemId}}" >Add to Cart</a></th>
+                        </table>
+                    </div>
+                    <div class="toggle-container">
+
+                        <div id="Item">
+                            <div id="picture">
+                                <img th:src="${item.getProduct().description}" class="itemImg"/>
+                            </div>
+                            <div id="table">
+                                <table>
+                                    <tr>
+                                        <td><h3 th:text="${item.getProduct().getName()}"></h3></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                        <h4><font size="4">
+                                            <span th:text="${item.attribute1}"></span>
+                                            <span th:text="${item.attribute2}"></span>
+                                            <span th:text="${item.attribute3}"></span>
+                                            <span th:text="${item.attribute4}"></span>
+                                            <span th:text="${item.attribute5}"></span>
+                                             </font>
+                                        </h4>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span th:if ="${item.quantity <= 0}">
+                                                Back ordered.
+                                            </span>
+                                            <span th:if ="${item.quantity > 0}">
+                                                <span th:text="${item.quantity}"></span>
+                                                <span> in stock.</span>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><h4 th:text="${item.listPrice}"></h4></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <a class="button" href="addItemToCart?workingitemId=${item.itemId}"><h4>Add to Cart</h4></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+</div>
+<div th:replace="common/footer"></div>
+
+</body>
+</html>

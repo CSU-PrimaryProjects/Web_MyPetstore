@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div th:replace="common/header"></div>
+<div class="wrapper cf">
+    <div role="main" id="main" class="cf">
+        <!-- SLIDER -->
+        <div class="slider-wrapper theme-halftone" id="slider-container">
+            <div id="slider" class="nivoSlider">
+                <img src="img/dummies/slides/01.jpg" alt="" />
+                <img src="img/dummies/slides/02.jpg" alt="" />
+                <img src="img/dummies/slides/03.jpg" alt="" />
+            </div>
+            <div class="slider-left"></div>
+            <div class="slider-right"></div>
+        </div>
+        <!-- ENDS SLIDER -->
+
+
+        <!-- headline -->
+        <div class="headline">petstore.com</div>
+        <!-- ENDS headline -->
+
+
+        <!-- featured -->
+        <ul class="feature cf">
+            <li>
+                <a href="viewcategory?categoryId=FISH" class="thumb">
+                    <img src="img/dummies/t01.jpg" alt="Thumbnail" />
+                    <div class="img-overlay"><i class="icon-plus-sign"></i></div>
+                    <div class="date"><span class="m">FISH</span><span class="d">01</span></div>
+                </a>
+                <a href="viewcategory?categoryId=FISH" class="excerpt">Give you the chance lightly to bear my joys and sorrows.</a>
+                <div class="categories"><a href="#">MyPetstore</a>
+                </div>
+            </li>
+
+            <li>
+                <a href="viewcategory?categoryId=DOGS" class="thumb">
+                    <img src="img/dummies/t02.jpg" alt="Thumbnail" />
+                    <div class="img-overlay"><i class="icon-plus-sign"></i></div>
+                    <div class="date"><span class="m">DOGS</span><span class="d">02</span></div>
+                </a>
+                <a href="viewcategory?categoryId=DOGS" class="excerpt">Give you the chance lightly to bear my joys and sorrows.</a>
+                <div class="categories"><a href="#">MyPetstore</a>
+                </div>
+            </li>
+
+            <li>
+                <a href="viewcategory?categoryId=REPTILES" class="thumb">
+                    <img src="img/dummies/t03.jpg" alt="Thumbnail" />
+                    <div class="img-overlay"><i class="icon-plus-sign"></i></div>
+                    <div class="date"><span class="m">REP.</span><span class="d">03</span></div>
+                </a>
+                <a href="viewcategory?categoryId=REPTILES" class="excerpt">Give you the chance lightly to bear my joys and sorrows.</a>
+                <div class="categories"><a href="#">MyPetstore</a>
+                </div>
+            </li>
+
+
+            <li>
+                <a href="viewcategory?categoryId=CATS" class="thumb">
+                    <img src="img/dummies/t04.jpg" alt="Thumbnail" />
+                    <div class="img-overlay"><i class="icon-plus-sign"></i></div>
+                    <div class="date"><span class="m">CATS</span><span class="d">04</span></div>
+                </a>
+                <a href="viewcategory?categoryId=CATS" class="excerpt">Give you the chance lightly to bear my joys and sorrows.</a>
+                <div class="categories"><a href="#">MyPetstore</a>
+                </div>
+            </li>
+
+            <li>
+                <a href="viewcategory?categoryId=BIRDS" class="thumb">
+                    <img src="img/dummies/t05.jpg" alt="Thumbnail" />
+                    <div class="img-overlay"><i class="icon-plus-sign"></i></div>
+                    <div class="date"><span class="m">BIRDS</span><span class="d">05</span></div>
+                </a>
+                <a href="single.html" class="excerpt">Give you the chance lightly to bear my joys and sorrows.</a>
+                <div class="categories"><a href="#">MyPetstore</a>
+                </div>
+            </li>
+
+            <li>
+                <a href="viewcategory?categoryId=BIRDS" class="thumb">
+                    <img src="img/dummies/t06.jpg" alt="Thumbnail" />
+                    <div class="img-overlay"><i class="icon-plus-sign"></i></div>
+                    <div class="date"><span class="m">MORE</span><span class="d">06</span></div>
+                </a>
+                <a href="single.html" class="excerpt">Give you the chance lightly to bear my joys and sorrows.</a>
+                <div class="categories"><a href="#">MyPetstore</a>
+                </div>
+            </li>
+        </ul>
+        <!-- ENDS featured -->
+
+    </div>
+
+</div>
+<div th:replace="common/footer"></div>
+</body>
+
+</html>
