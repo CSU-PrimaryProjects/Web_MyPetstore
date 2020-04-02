@@ -19,11 +19,12 @@
 
 
 
+        <br/><br/>
         <div class="page-content">
+            <p><h2 class="heading" th:text="${items[0].getProduct().getName()}"></h2></p>
 
-            <h2 class="heading" th:text="${items[0].getProduct().getName()}"></h2>
 
-            <br/><br/>
+            <br/>
 
             <!-- entry-content -->
             <div class="entry-content cf" th:each="item:${items}">
