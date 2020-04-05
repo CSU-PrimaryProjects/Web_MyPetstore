@@ -16,10 +16,8 @@ public class AccountServiceImpl implements AccountService{
         return accountDAO.getAccountByUsername(username);
     }
 
-    public Account getAccount(String username, String password) {
-        Account account = new Account();
-        account.setUsername(username);
-        account.setPassword(password);
+    public Account getAccount(Account account) {
+
         return accountDAO.getAccountByUsernameAndPassword(account);
     }
 
@@ -29,5 +27,9 @@ public class AccountServiceImpl implements AccountService{
 
     public void updateAccount(Account account) {
         accountDAO.updateAccount(account);
+    }
+
+    public void updateStatus(String username, Integer status) {
+        accountDAO.updateStatus(username,status);
     }
 }

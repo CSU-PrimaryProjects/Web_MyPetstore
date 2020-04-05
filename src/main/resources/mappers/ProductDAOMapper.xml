@@ -9,7 +9,7 @@
     SELECT PRODUCTID, NAME, DESCN as description, +
             CATEGORY as categoryId FROM PRODUCT WHERE PRODUCTID = #{productId}
     </select>
-    <select id="searchProductString">
+    <select id="searchProductList">
      SELECT PRODUCTID, NAME, DESCN as description, +
      CATEGORY as categoryId from PRODUCT WHERE lower(name) like #{keyword}
     </select>

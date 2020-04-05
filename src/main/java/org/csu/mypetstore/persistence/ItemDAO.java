@@ -22,5 +22,11 @@ public interface ItemDAO {
 
     void insertViewItem(String viewItem, String viewItemName);
 
-    Cart getCarts(String userId);
+    List<Cart> getCarts(String userId);
+
+    Cart getCart(String userId);
+
+    void updateCards(String userId);
+
+    void updateItems(String itemId);
 }

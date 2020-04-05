@@ -18,6 +18,8 @@ public interface AccountDAO {
 
     void updateAccount(Account account);
 
+    void updateStatus(String username,Integer status);
+
     void updateProfile(Account account);
 
     void updateSignon(Account account);

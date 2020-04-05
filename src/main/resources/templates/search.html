@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div th:replace="common/header"></div>
+<div class="wrapper cf">
+
+    <div id="BackLink">
+        <a href="main">Return to Main Menu</a>
+    </div>
+
+
+    <br/><br/>
+    <div class="page-content">
+
+        <!-- entry-content -->
+        <div class="entry-content cf" th:each="product:${products}">
+
+            <!-- Toggle -->
+            <div class="toggle-trigger"><i></i>
+
+
+    <table  class="table">
+        <tr>
+            <th>&nbsp;</th>
+            <th>Product ID</th>
+            <th>Name</th>
+        </tr>
+            <tr>
+                <td>
+                    <a href="viewproduct?productId=${product.productId}">
+                        <span th:text="${product.description}"></span>
+                    </a>
+                </td>
+                <td><b>
+                    <a href="viewproduct?productId=${product.productId}">
+                        <span th:text="${product.productId}"></span>
+                    </a>
+                </b></td>
+                <td><span th:text="${product.name}"></span></td>
+            </tr>
+        <tr>
+            <td></td>
+        </tr>
+
+    </table>
+</div>
+        </div>
+    </div>
+</div>
+<div th:replace="common/footer"></div>
+</body>
+
+</html>

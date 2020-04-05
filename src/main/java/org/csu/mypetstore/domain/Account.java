@@ -12,7 +12,7 @@ public class Account implements Serializable {
   private String email;
   private String firstName;
   private String lastName;
-  private String status;
+  private int status;
   private String address1;
   private String address2;
   private String city;
@@ -76,11 +76,11 @@ public class Account implements Serializable {
     this.lastName = lastName;
   }
 
-  public String getStatus() {
+  public int getStatus() {
     return status;
   }
 
-  public void setStatus(String status) {
+  public void setStatus(int status) {
     this.status = status;
   }
 

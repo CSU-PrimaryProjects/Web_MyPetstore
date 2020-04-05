@@ -9,5 +9,5 @@ import java.util.List;
 public interface ProductDAO {
     List<Product>getProductListByCategory(String productID);
     Product getProduct(String productID);
-    List<Product>searchProductList(String keyward);
+    List<Product>searchProductList(String keyword);
 }
