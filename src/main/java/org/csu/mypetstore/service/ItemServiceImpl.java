@@ -13,6 +13,7 @@ import java.util.List;
 public class ItemServiceImpl implements ItemService{
     @Autowired
     ItemDAO itemDAO;
+
     public List<Item> getItemListByProduct(String productId) {
         return itemDAO.getItemListByProduct(productId);
     }
@@ -21,8 +22,8 @@ public class ItemServiceImpl implements ItemService{
         return itemDAO.getItem(itemId);
     }
 
-    public boolean isItemInStock(String itemId) {
-        return false;
+    public boolean isItemInStock(String itemId){
+        return itemDAO.getInventoryQuantity(itemId) > 0;
     }
 
     public void insertCarts(String userId, String itemId, String productId, int Quantity, BigDecimal listPrice) {

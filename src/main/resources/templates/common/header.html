@@ -24,9 +24,9 @@
                 <div id="social-bar-holder">
                     <ul id="social-bar" class="cf">
                         <li class="dribbble"><a href="addItemToCart?workingitemId=EST-8&removeCartItemId=EST-8" title="Dribbble"></a></li>
-                        <li th:unless="${isOnline}" class="googleplus"><a th:href="@{'/login'}" title="googleplus"></a></li>
-                        <li th:if="${isOnline}" class="github"><a href="myAccount?username=${sessionScope.account.getUsername()}" title="github"></a></li>
-                        <li th:if="${isOnline}"  class="linkedin"><a href="login?isLogin=false" title="linkedin"></a></li>
+                        <li  th:if="${session.account} == null" class="googleplus"><a th:href="@{'/login'}" title="googleplus"></a></li>
+                        <li th:if="${session.account}!= null" class="github"><a th:href="@{'myAccount?username='+${session.account.getUsername()}}" title="github"></a></li>
+                        <li th:if="${session.account}!= null" class="linkedin"><a href="/signoff" title="linkedin"></a></li>
                         <li class="facebook"><a href="" title="Facebook"></a></li>
                         <li class="twitter"><a href="" title="twitter"></a></li>
                     </ul>

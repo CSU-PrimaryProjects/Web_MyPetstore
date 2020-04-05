@@ -2,10 +2,13 @@ package org.csu.mypetstore.domain;
 
 //import com.ibatis.common.util.PaginatedArrayList;
 
+import org.springframework.stereotype.Component;
+
 import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.*;
 
+@Component("cart")
 public class Cart implements Serializable {
 
   private static final long serialVersionUID = 8329559983943337176L;

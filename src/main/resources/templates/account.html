@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div th:replace="common/header"></div>
+<div class="wrapper cf">
+<div role="main" id="main" class="cf">
+
+        <form id="commentform">
+            <table class="table">
+                <tr>
+                    <th align="center" style="text-align: center" colspan="2"><h3>Account Information</h3></th>
+                </tr>
+                <tr>
+                    <td>First name:</td>
+                    <td style="width: 70%;" th:value="${session.account.firstName}"></td>
+                </tr>
+                <tr>
+                    <td>Last name:</td>
+                    <td th:value="${session.account.lastName}"></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td th:value="${session.account.email}"></td>
+                </tr>
+                <tr>
+                    <td>Phone:</td>
+                    <td th:value="${session.account.phone}"></td>
+                </tr>
+                <tr>
+                    <td>Address 1:</td>
+                    <td th:value="${session.account.address1}"> </td>
+                </tr>
+                <tr>
+                    <td>Address 2:</td>
+                    <td th:value="${session.account.address2}"> </td>
+                </tr>
+                <tr>
+                    <td>City:</td>
+                    <td th:value="${session.account.city}"> </td>
+                </tr>
+                <tr>
+                    <td>State:</td>
+                    <td th:value="${session.account.getState()}"> </td>
+                </tr>
+                <tr>
+                    <td>Zip:</td>
+                    <td style="size: 10px" th:value="${session.account.zip}"> </td>
+                </tr>
+                <tr>
+                    <td>Country:</td>
+                    <td style="size: 10px" th:value="${session.account.country}"> </td>
+                </tr>
+            </table>
+        </form>
+        <form id="commentform">
+            <div align="center" style="border:0;padding:0;;margin: auto">
+                <h3>Profile Information</h3>
+
+                <table class="table">
+                    <tr>
+                        <td>Language Preference:</td>
+                        <td>
+                            <select name="account.languagePreference">
+                                <option th:value="${session.account.languagePreference}"></option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Favourite Category:</td>
+                        <td style="width: 50%;">
+                            <select name="account.favouriteCategoryId">
+                                <option th:value="${session.account.favouriteCategoryId}"></option>
+                                <option th:value="${session.categories}"></option>
+                            </select>
+                    </tr>
+                    <tr>
+                        <td>Enable MyList</td>
+                        <td th:value="${session.account.listOption}">
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Enable MyBanner</td>
+                        <td th:value="${session.account.bannerOption}">
+
+                        </td>
+                    </tr>
+
+                </table>
+        </form>
+    </div>
+
+</div>
+<div th:replace="common/footer"></div>
+</body>
+
+</html>
