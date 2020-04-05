@@ -63,7 +63,7 @@
                     </table>
                 </form>
 
-                <a class="Button" th:if="${cart.numberOfItems > 0}" href="#">
+                <a class="Button" th:if="${cart.numberOfItems > 0}" href="newOrderForm">
                     Proceed to Checkout
                 </a>
             </div>
@@ -71,10 +71,9 @@
 
             <div id="Separator">&nbsp;</div>
         </div>
+    </div>
 
-
-</div>
-<div th:replace="common/footer"></div>
-
+    </div>
+    <div th:replace="common/footer"></div>
 </body>
 </html>

@@ -82,4 +82,9 @@ public class CartController {
         model.addAttribute("cart",cart);
         return "cart";
     }
+
+    @GetMapping("newOrderForm")
+    public String newOrderForm() {
+        return "neworderform";
+    }
 }

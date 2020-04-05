@@ -4,11 +4,7 @@
     <list default="true" id="dee494e4-ed42-4d6b-8e32-02188413e127" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/csu/mypetstore/controller/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/csu/mypetstore/controller/CartController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/csu/mypetstore/controller/OnlineController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/csu/mypetstore/controller/OnlineController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/csu/mypetstore/domain/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/csu/mypetstore/domain/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/csu/mypetstore/service/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/csu/mypetstore/service/ItemServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/common/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/common/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/cart.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,8 +31,8 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="Interface" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -112,7 +108,8 @@
       <workItem from="1585821472668" duration="157000" />
       <workItem from="1585821961971" duration="2595000" />
       <workItem from="1586009407995" duration="16790000" />
-      <workItem from="1586051364652" duration="19215000" />
+      <workItem from="1586051364652" duration="19547000" />
+      <workItem from="1586074066479" duration="1724000" />
     </task>
     <servers />
   </component>
