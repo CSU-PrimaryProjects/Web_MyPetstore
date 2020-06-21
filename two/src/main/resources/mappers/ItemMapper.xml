@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.csu.marchant.persistence.ItemMapper">
+    <cache/>
+
+    <!--  由大类id获取商品的详细信息，包括所属小类信息、库存  -->
+    <select id="getItemListByCategory" parameterType="string" resultType="org.csu.marchant.domain.Item">
+        SELECT
+            I.ITEMID,
+            LISTPRICE,
+            UNITCOST,
+            SUPPLIER AS supplierId,
+            I.PRODUCTID AS productId,
+            P.NAME AS "product.name",
+            P.DESCN AS "product.description",
+            CATEGORY AS "product.categoryId",
+            C.NAME AS "category.name",
+            C.DESCN AS "category.description",
+            V.qty AS num,
+            STATUS,
+            ATTR1 AS attribute1,
+            ATTR2 AS attribute2,
+            ATTR3 AS attribute3,
+            ATTR4 AS attribute4,
+            ATTR5 AS attribute5,
+            QTY AS quantity
+        FROM ITEM I, PRODUCT P, INVENTORY V, CATEGORY C
+        WHERE P.PRODUCTID = I.PRODUCTID
+        AND I.ITEMID = V.ITEMID
+        AND P.CATEGORY = C.CATID
+        AND C.CATID = #{category.categoryId}
+    </select>
+
+    <!--  由小类id获取商品的详细信息，包括所属小类信息、库存  -->
+    <select id="getItemListByProduct" parameterType="string" resultType="Item">
+        SELECT
+            I.ITEMID,
+            LISTPRICE,
+            UNITCOST,
+            SUPPLIER AS supplierId,
+            I.PRODUCTID AS "product.productId",
+            NAME AS "product.name",
+            DESCN AS "product.description",
+            CATEGORY AS "product.categoryId",
+            V.qty AS num,
+            STATUS,
+            ATTR1 AS attribute1,
+            ATTR2 AS attribute2,
+            ATTR3 AS attribute3,
+            ATTR4 AS attribute4,
+            ATTR5 AS attribute5,
+            QTY AS quantity
+        FROM ITEM I, PRODUCT P, INVENTORY V
+        WHERE P.PRODUCTID = I.PRODUCTID
+        AND I.ITEMID = V.ITEMID
+        AND I.PRODUCTID = #{productId}
+    </select>
+
+    <!--  由商品id获取商品的详细信息，包括所属小类信息、库存  -->
+    <select id="getItem" parameterType="string" resultType="org.csu.marchant.domain.Item">
+        SELECT
+            I.ITEMID,
+            LISTPRICE,
+            UNITCOST,
+            SUPPLIER AS supplierId,
+            I.PRODUCTID AS productId,
+            NAME AS "product.name",
+            DESCN AS "product.description",
+            CATEGORY AS "product.categoryId",
+            V.qty AS num,
+            STATUS,
+            ATTR1 AS attribute1,
+            ATTR2 AS attribute2,
+            ATTR3 AS attribute3,
+            ATTR4 AS attribute4,
+            ATTR5 AS attribute5,
+            QTY AS quantity
+        FROM ITEM I, INVENTORY V, PRODUCT P
+        WHERE P.PRODUCTID = I.PRODUCTID
+        AND I.ITEMID = V.ITEMID
+        AND I.ITEMID = #{itemId}
+    </select>
+
+    <!--  删除商品：详细信息  -->
+    <delete id="deleteItemByItemId" parameterType="string">
+        DELETE FROM Item
+        WHERE ITEMID = #{itemId}
+    </delete>
+    <!--  删除商品：库存  -->
+    <delete id="deleteInventory" parameterType="string">
+        DELETE FROM INVENTORY
+        WHERE ITEMID = #{itemId}
+    </delete>
+    <!--  更新库存  -->
+    <update id="updateInventoryQuantity" parameterType="Item">
+        UPDATE INVENTORY SET
+            QTY = #{quantity}
+        WHERE ITEMID = #{itemId}
+    </update>
+</mapper>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.csu.marchant.persistence.CategoryMapper">
+
+    <!--  查询某一Category  -->
+    <select id="getCategory" parameterType="string" resultType="org.csu.marchant.domain.Category">
+        SELECT
+            CATID AS categoryId,
+            NAME,
+            DESCN AS description
+        FROM CATEGORY WHERE CATID = #{categoryId}
+    </select>
+
+    <!--  查询所有Category  -->
+    <select id="getCategoryList" resultType="org.csu.marchant.domain.Category">
+        SELECT
+            CATID AS categoryId,
+            NAME,
+            DESCN AS description
+        FROM CATEGORY
+    </select>
+
+
+    <!--  新增Category  -->
+    <insert id="insertCategory" parameterType="org.csu.marchant.domain.Category">
+        INSERT INTO CATEGORY
+            (CATID, NAME, DESCN)
+        VALUES (#{categoryId}, #{name}, #{description})
+    </insert>
+
+    <!--  修改某Category  -->
+    <update id="updateCategory" parameterType="org.csu.marchant.domain.Category">
+        UPDATE CATEGORY SET
+            CATID = #{categoryId},
+            NAME = #{name},
+            DESCN = #{description}
+        WHERE CATID = #{categoryId}
+    </update>
+
+    <!--  删除某Category  -->
+    <delete id="deleteCategoryById" parameterType="string">
+        DELETE FROM CATEGORY
+        WHERE CATID = #{categoryId}
+    </delete>
+
+    <select id="getProductIdByCategoryId" parameterType="string" resultType="string">
+        SELECT PRODUCTID
+        FROM PRODUCT
+        WHERE CATEGORY = #{categoryId}
+    </select>
+
+
+</mapper>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div th:replace="common/header"></div>
+<div class="wrapper cf">
+
+    <div>
+        <div id="center-container">
+            <h2 class="heading"> Login</h2><br/>
+            <a href="/emailin"><span><h5>Login in with E-mail.</h5></span></a>
+        </div>
+
+        <form  th:action="@{/login/signin}"  method="post" id="commentform">
+
+        <p class="comment-form-author"><label for="username">Username<span class="required">*</span></label>
+
+            <input id="username" type="text" name="username" size="30"/>
+        </p>
+        <p class="comment-form-email"><label for="password">Password<span class="required">*</span></label>
+            <input id="password" type="password" name="password" size="30"/>
+        </p>
+
+
+        <p><span style="color: red" th:text="${msg}"></span></p>
+
+        <p class="comment-form-author"><label for="username">Verification<span class="required">*</span></label>
+            <input id="veryCode" type="text" name="veryCode" size="30"/>
+        </p>
+
+        <p align="center">
+            <img id="imgObj" border="0" alt="" src="xuan/verifyCode"/>
+        </p>
+        <p><span id="info" style="color: red" th:text="${msg2}"></span></p>
+        <div id="center-container">
+            <p class="form-submit">
+                <input type="submit" onclick="isRightCode()" name="signon" value="Login" id="submit" />
+                <input type="hidden" name="comment_post_ID" value="34" id="comment_post_ID" />
+                <input type="hidden" name="comment_parent" id="comment_parent" value="0" />
+            </p>
+        </div>
+        </form>
+        <div id="center-container">
+            <a href="newAccount"><span><h4>Register Now!</h4></span></a>
+            <br/>
+        </div>
+
+    </div>
+</div>
+<div th:replace="common/footer"></div>
+
+<script type="text/javascript">
+    function changeImg(){
+        var imgSrc = $("#imgObj");
+        var src = imgSrc.attr("src");
+        imgSrc.attr("src",chgUrl(src));
+    }
+    //时间戳
+    //为了使每次生成图片不一致，即不让浏览器读缓存，所以需要加上时间戳
+    function chgUrl(url){
+        var timestamp = (new Date()).valueOf();
+        urlurl = url.substring(0,17);
+        if((url.indexOf("&")>=0)){
+            urlurl = url + "×tamp=" + timestamp;
+        }else{
+            urlurl = url + "?timestamp=" + timestamp;
+        }
+        return url;
+    }
+
+    function isRightCode(){
+        var code = $("#veryCode").attr("value");
+        code = "cod=" + code;
+        $.ajax({
+            type:"POST",
+            url:"resultServlet/validateCode",
+            data:code,
+            success:callback
+        });
+    }
+
+    function callback(data){
+        $("#info").html(data);
+    }
+
+</script>
+
+</body>
+
+</html>

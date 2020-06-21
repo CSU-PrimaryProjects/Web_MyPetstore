@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="org.csu.marchant.persistence.SellerMapper">
+
+    <select id="getSellerByUsernameAndPassword" parameterType="org.csu.marchant.domain.Seller" resultType="org.csu.marchant.domain.Seller">
+         SELECT
+            SELLERID,
+            SELLERNAME,
+            SELLERPASSWORD as sellerPwd,
+            EMAIL,
+            ADDRESS,
+            PHONE,
+            CITY,
+            STATE,
+            COUNTRY,
+            STATUS
+        FROM SELLER
+        WHERE SELLERID = #{sellerId}
+        AND SELLERPASSWORD = #{password}
+    </select>
+    <select id="getSellerBySellerId" resultType="org.csu.marchant.domain.Seller">
+        SELECT
+            SELLERID,
+            SELLERNAME,
+            SELLERPASSWORD as sellerPwd,
+            EMAIL,
+            ADDRESS,
+            PHONE,
+            CITY,
+            STATE,
+            COUNTRY,
+            STATUS
+        FROM SELLER
+        WHERE sellerid = #{sellerId}
+    </select>
+
+    <!--  商品的状态 ？？？ -->
+<!--    <update id="setItemsStatusP" parameterType="String">-->
+<!--        UPDATE ITEM SET-->
+<!--            STATUS = "F"-->
+<!--        WHERE IETMID IN (SELECT ITEMID FROM INVENTORY WHERE QTY = "0")-->
+<!--    </update>-->
+
+    <!--  修改商家信息 -->
+    <update id="updateSeller" parameterType="org.csu.marchant.domain.Seller">
+        UPDATE SELLER SET
+            SELLERNAME = #{sellerName},
+            EMAIL = #{email},
+            ADDRESS = #{address},
+            CITY = #{city},
+            COUNTRY = #{country}
+        WHERE SELLERID = #{sellerId}
+    </update>
+
+
+</mapper>

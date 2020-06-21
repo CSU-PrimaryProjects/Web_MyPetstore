@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div th:replace="common/header"></div>
+<div class="wrapper cf">
+
+    <div id="Content">
+        <!-- MAIN -->
+        <div role="main" id="main" class="cf">
+            <script src="../../../js/userIsExist.js"></script>
+            <div id="Catalog">
+                <form action="/newAccount/register" method="post" id="commentform" >
+                    <h3 align="center">User Information</h3>
+                    <table class="table">
+                        <tr>
+                            <td>User ID:</td>
+                            <td class="right-td"><input type="text" class="form-input" name="username" id="username"  onblur="usernameIsExist();"/>
+                                <div id="usernameMsg"></div>
+                             </td>
+                        </tr>
+                        <tr>
+                            <td>Password:</td>
+                            <td class="right-td"><input  class="form-input" type="password" name="password"/></td>
+                        </tr>
+                        <tr>
+                            <td>Repeat password:</td>
+                            <td class="right-td"><input class="form-input" type="password" name="repassword"/></td>
+                        </tr>
+                    </table>
+
+
+
+
+                    <h3 style="margin: 0ex 0ex 0ex 0ex;line-height: 3ex;" align="center">Account Information</h3>
+
+                    <table class="table">
+                        <tr>
+                            <td>First name:</td>
+                            <td class="right-td"><input  class="form-input" type="text" name="firstName"/></td>
+                        </tr>
+                        <tr>
+                            <td>Last name:</td>
+                            <td class="right-td"><input type="text" class="form-input" name="lastName"/></td>
+                        </tr>
+                        <tr>
+                            <td>Email:</td>
+                            <td class="right-td"><input type="text" class="form-input" name="email"/></td>
+                        </tr>
+                        <tr>
+                            <td>Phone:</td>
+                            <td class="right-td"><input type="text" class="form-input" name="phone"/></td>
+                        </tr>
+                        <tr>
+                            <td>Address 1:</td>
+                            <td class="right-td"><input type="text" class="form-input" name="address1" style="size: 40px"/></td>
+                        </tr>
+                        <tr>
+                            <td>Address 2:</td>
+                            <td class="right-td"><input type="text" class="form-input" name="address2" style="size: 40px"/></td>
+                        </tr>
+                        <tr>
+                            <td>City:</td>
+                            <td class="right-td"><input type="text" class="form-input" name="city"/></td>
+                        </tr>
+                        <tr>
+                            <td>State:</td>
+                            <td class="right-td"><input type="text" class="form-input" name="state"/></td>
+                        </tr>
+                        <tr>
+                            <td>Zip:</td>
+                            <td class="right-td"><input class="form-input" type="text" name="zip"/></td>
+                        </tr>
+                        <tr>
+                            <td>Country:</td>
+                            <td class="right-td"><input class="form-input" type="text" name="country"/></td>
+                        </tr>
+                    </table>
+
+                    <h3 align="center">Profile Information</h3>
+
+                    <table class="table">
+                        <tr>
+                            <td>Language Preference:</td>
+                            <td class="right-td">
+                                <select name="languagePreference" style="width: 100px">
+                                    <option>ENGLISH</option>
+                                    <option>CHINESE</option>
+                                    <option>JAPANESE</option>
+                                </select>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Favourite Category:</td>
+                            <td class="right-td">
+                                <select name="favouriteCategoryId" style="width: 100px">
+                                    <option>DOGS</option>
+                                    <option>CATS</option>
+                                    <option>FISH</option>
+                                    <option>BIRDS</option>
+                                    <option>REPTILES</option>
+                                </select>
+
+                        </tr>
+                        <tr>
+                            <td>Enable MyList</td>
+                            <td class="right-td">
+
+                                <input  class="form-input" type="checkbox" name="account.listOption" value="account.listOption"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Enable MyBanner</td>
+                            <td class="right-td">
+                                <input class="form-input" type="checkbox" name="account.bannerOption" value="account.bannerOption"/>
+                            </td>
+                        </tr>
+                    </table>
+                    <div align="center"><input type="submit" name="register" class="form-input" value="Register"/></div>
+
+                </form>
+            </div>
+            <script src="../../../js/userIsExist.js"></script>
+
+        </div>
+
+        <!-- ENDS MAIN -->
+
+
+    </div>
+
+    </div>
+<div th:replace="common/footer"></div>
+</body>
+
+</html>
